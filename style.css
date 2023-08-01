@@ -6,15 +6,16 @@ header{
     justify-content: space-between;
 }
 .log{
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     border-radius: 25px;
+    margin-top: 5px;
 }
 .im{
     margin-left: 100px;
 }
 span{
-    margin-left: 5px;
+    margin-left: 10px;
     color: azure;
 }
 
@@ -53,7 +54,6 @@ footer{
 }
 .sep{
     display: flex;
-    margin-top: -40px;
 }
 h4{
     color: white;
@@ -103,7 +103,7 @@ h1{
     font-size: 12px;
 }
 .souri{
-    position: absolute;
+    /* position: absolute; */
     right: 30px;
     color: wheat;
 }
@@ -121,3 +121,73 @@ h5{
     margin-top: -15px;
     color: azure;
 }
+   
+   
+   
+@media screen and (max-width: 920px){
+    header{
+        display: none;
+    }
+    .souri{
+        display: none;
+    }
+    .containair{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .book{
+        width: 150px;
+        margin-right: 100px;
+    }
+      
+      
+    @media screen and (max-width: 300px) {
+        .fini{
+            margin-left: 500px;
+        }
+        .see{
+            margin-top: 130px;
+        }
+    }  
+    /* }
+    .track{
+        margin-left: 200px;
+    } */
+    /* .fini{
+        margin-left: 900px;
+     }
+    .pa{
+        width: 100%;
+    } */ */
+    /* .sep{
+        margin-top: 150px;
+    } */
+}
+
+/* @media screen and (max-width: 1100px) {
+    .containair{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+    .souri{
+        display: none;
+    }
+} */
+    
+/* @media screen and (max-width: 996px) {
+    .sep{
+        margin-right: 800px;
+    }
+    .souri{
+        margin-right: 500px;
+    }
+    .see{
+        margin-right: 700px;
+    }
+    .fini{
+        margin-left: 900px;
+    }
+    
+} */
+    
