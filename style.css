@@ -53,6 +53,7 @@ footer{
 }
 .sep{
     display: flex;
+    margin-top: -40px;
 }
 h4{
     color: white;
@@ -68,4 +69,55 @@ h1{
     font-size: 1.3em;
     color: white;
     margin-top: -35px;
+}
+.bouton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.book{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    color: azure;
+    background-color: rgb(67, 209, 162);
+}
+.track{
+    font-size: 1.5em;
+    color: bisque;
+    background-color: green;
+    border: none;
+    margin-right: 200px;
+}
+.see{
+    margin-right: 400px; 
+}
+.all{
+    background-color: green;
+    border: 1px solid rgb(46, 45, 45);
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    color: azure;
+    font-size: 12px;
+}
+.souri{
+    position: absolute;
+    right: 30px;
+    color: wheat;
+}
+.us{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.fini{
+    margin-right: 100px;
+}
+h5{
+    color: azure;
+}
+.pp{
+    margin-top: -15px;
+    color: azure;
 }
