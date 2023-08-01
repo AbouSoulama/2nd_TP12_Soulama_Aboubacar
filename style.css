@@ -1,0 +1,65 @@
+body{
+    background-color: green;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+}
+.im{
+    margin-left: 100px;
+}
+span{
+    margin-left: 5px;
+    color: azure;
+}
+
+nav{
+    margin-right: 100px;
+}
+nav a {
+    color: azure;
+    margin-left: 50px;
+}
+.supp{
+    margin-left: 50px;
+    border-radius: 25px;
+    background-color: green;
+    color: azure;
+    width: 75px;
+    height: 30px;
+}
+.containair{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.inc{
+    width: 500px;
+    height: 500px;
+}
+.text{
+    margin-left: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.sep{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    color: white;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+}
