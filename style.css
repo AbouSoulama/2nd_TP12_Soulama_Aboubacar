@@ -53,13 +53,19 @@ footer{
 }
 .sep{
     display: flex;
-    justify-content: space-around;
 }
 h4{
     color: white;
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3em;
+    font-size: 4em;
     color: white;
+    margin-top: -20px;
+}
+.pa{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: white;
+    margin-top: -35px;
 }
